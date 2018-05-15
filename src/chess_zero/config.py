@@ -142,6 +142,7 @@ class Config:
     """
     labels = create_uci_labels()
     n_labels = int(len(labels))
+    print ('===== n_labels =====',n_labels) 
     flipped_labels = flipped_uci_labels()
     unflipped_index = None
 
